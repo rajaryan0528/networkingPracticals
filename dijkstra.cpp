@@ -55,7 +55,7 @@ void Graph::shortestPath(int src)
             int v = (*i).first;
             int weight = (*i).second;
 
-            // If there is shorter path to v through u.
+            // If there is shorter path to v through node.
             if (dist[v] > dist[node] + weight)
             {
                 /* If distance of v is not INF then it must be in
