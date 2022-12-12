@@ -3,6 +3,7 @@ using namespace std;
 
 #define ll long long int
 
+
 void transmission(ll &i, ll &N, ll &tf, ll &tt)
 {
     while (i <= tf)
